@@ -20,7 +20,7 @@ const About = () => {
           {/* Left: Narrative (wider) */}
           <div className="lg:col-span-3 space-y-6">
             <p className="text-stone-700 dark:text-stone-300 text-lg leading-[1.85]">
-              I'm Sadia — a Software Engineering graduate from PUCIT, Lahore with a strong
+              I'm Sadia — a Software Engineer, graduate from PUCIT, Lahore with a strong
               passion for building things that are both technically rigorous and genuinely useful.
               Over the course of my degree, I've gone deep into full-stack web development,
               AI/ML systems, and scalable backend architecture.
@@ -69,7 +69,7 @@ const About = () => {
                   </h3>
                   <p className="text-stone-500 dark:text-stone-400 text-sm">PUCIT, Lahore</p>
                   <div className="mt-3 inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-200 dark:border-emerald-900/40">
-                    <span className="text-emerald-700 dark:text-emerald-400 text-xs font-semibold">CGPA 3.88 / 4.00</span>
+                    <span className="text-emerald-700 dark:text-emerald-400 text-xs font-semibold">CGPA 3.90 / 4.00</span>
                   </div>
                 </div>
               </div>

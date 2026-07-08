@@ -4,10 +4,19 @@ import React from 'react'
 
 const experiences = [
   {
+    role: 'Software Engineer',
+    company: 'Strategic Systems International - SSI',
+    period: 'Current',
+    type: 'FullTime',
+    description:
+      'Working on enterprise level systems related to health care.',
+    tags: ['dotnet', 'C#'],
+  },
+  {
     role: 'Software Engineer Trainee',
     company: 'Dubizzle Labs',
     period: 'Mar 2026 – May 2026',
-    type: 'Internship',
+    type: 'PartTime',
     description:
       'Worked on PROPFORCE within the sales team, resolving and implementing backend tickets using Node.js, Express.js, and Sequelize. Collaborated with cross-functional teams to debug issues and enhance product functionality.',
     tags: ['Node.js', 'Express.js', 'Sequelize', 'PROPFORCE'],
@@ -15,8 +24,8 @@ const experiences = [
   {
     role: 'Software Engineer',
     company: 'Spiral Labs',
-    period: 'Part-time',
-    type: 'Work',
+    period: 'Nov 2025 - Jan 2026',
+    type: 'PartTime',
     description:
       'Developed and maintained software products using modern JavaScript frameworks, contributing to end-to-end feature development and code quality improvement.',
     tags: ['JavaScript', 'React', 'Full-Stack'],
@@ -51,8 +60,8 @@ const experiences = [
 ]
 
 const typeBadgeClass = {
-  Internship: 'bg-indigo-50 text-indigo-700 border-indigo-200 dark:bg-indigo-900/20 dark:text-indigo-300 dark:border-indigo-800/40',
-  Work: 'bg-amber-50 text-amber-700 border-amber-200 dark:bg-amber-900/20 dark:text-amber-300 dark:border-amber-800/40',
+  PartTime: 'bg-indigo-50 text-indigo-700 border-indigo-200 dark:bg-indigo-900/20 dark:text-indigo-300 dark:border-indigo-800/40',
+  FullTime: 'bg-amber-50 text-amber-700 border-amber-200 dark:bg-amber-900/20 dark:text-amber-300 dark:border-amber-800/40',
   Academic: 'bg-emerald-50 text-emerald-700 border-emerald-200 dark:bg-emerald-900/20 dark:text-emerald-300 dark:border-emerald-800/40',
   Mentoring: 'bg-sky-50 text-sky-700 border-sky-200 dark:bg-sky-900/20 dark:text-sky-300 dark:border-sky-800/40',
   Leadership: 'bg-rose-50 text-rose-700 border-rose-200 dark:bg-rose-900/20 dark:text-rose-300 dark:border-rose-800/40',

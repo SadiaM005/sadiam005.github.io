@@ -1,1 +1,1 @@
-live url: sadiakhalil.me
+live url: https://sadiakhalil.me/
